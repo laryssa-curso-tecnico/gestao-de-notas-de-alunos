@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+.titulo {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #343a40;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+
+.carregando {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.barra-controle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.campo-pesquisa {
+    flex: 1;
+    padding: 10px;
+    margin-right: 10px;
+}
+
+.botao-exportar {
+    padding: 10px 20px;
+}
+
+.abas-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.abas {
+    display: flex;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.abas .aba-item {
+    margin-bottom: -1px;
+}
+
+.abas .aba-link {
+    display: block;
+    padding: 10px 20px;
+    margin-right: 5px;
+    border: 1px solid transparent;
+    border-radius: 5px 5px 0 0;
+    color: #495057;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.abas .aba-link.ativa {
+    color: #ffffff;
+    background-color: #007bff;
+    border-color: #007bff #007bff #ffffff;
+}
+
+.conteudo-abas > .conteudo-aba {
+    display: none;
+}
+
+.conteudo-abas > .conteudo-aba.ativa {
+    display: block;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.table th, .table td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #dee2e6;
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: #ffffff;
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f2f2f2;
+}
+
+.aprovado {
+    background-color: #d4edda;
+    color: #155724;
+}
+
+.recuperacao {
+    background-color: #e4ff94;
+    color: #856404;
+}
+
+.reprovado-por-nota {
+    background-color: #f8d7da;
+    color: #721c24;
+}
+
+.reprovado-por-faltas {
+    background-color: #f5c6cb;
+    color: #721c24;
+}
